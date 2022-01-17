@@ -1,3 +1,15 @@
+# v1.1.1 (Mon Jan 17 2022)
+
+#### ⚠️ Pushed to `master`
+
+- test action change ([@whattheearl](https://github.com/whattheearl))
+
+#### Authors: 1
+
+- Jonathan Earl ([@whattheearl](https://github.com/whattheearl))
+
+---
+
 # v1.1.0 (Mon Jan 17 2022)
 
 #### 🚀 Enhancement
