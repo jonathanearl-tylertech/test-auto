@@ -1,3 +1,16 @@
+# v1.1.3 (Mon Jan 17 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:whattheearl/test-auto ([@whattheearl](https://github.com/whattheearl))
+- use githubtoken ([@whattheearl](https://github.com/whattheearl))
+
+#### Authors: 1
+
+- Jonathan Earl ([@whattheearl](https://github.com/whattheearl))
+
+---
+
 # v1.1.2 (Mon Jan 17 2022)
 
 #### ⚠️ Pushed to `master`
