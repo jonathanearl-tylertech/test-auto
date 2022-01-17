@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/whattheearl/test-auto#readme",
   "dependencies": {
+    "@auto-it/git-tag": "^10.32.5",
     "auto": "^10.32.5"
   }
 }
