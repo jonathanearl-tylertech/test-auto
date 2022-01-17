@@ -1,0 +1,39 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:          
+  release:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+
+    - name: Prepare Repository
+      # Fetch full git history and tags
+      run: git fetch --unshallow --tags
+    
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+        cache: 'npm'
+
+    - name: Install packages
+      run: |
+        npm ci
+
+    - name: Publish Release to Github
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo $GITHUB_TOKEN
+        npx auto shipit

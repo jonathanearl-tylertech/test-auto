@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "git-tag"
+  ],
+  "owner": "whattheearl",
+  "repo": "test-auto",
+  "name": "github action",
+  "email": "githubaction@donotreply.github.com"
+}
