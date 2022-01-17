@@ -33,6 +33,6 @@ jobs:
 
     - name: Publish Release to Github
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         npx auto shipit
